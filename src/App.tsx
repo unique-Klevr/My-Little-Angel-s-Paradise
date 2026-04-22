@@ -191,8 +191,8 @@ const Navigation = () => {
           <a href="#" className="flex items-center gap-3 group">
             <AngelWingLogo className="w-12 h-12 transition-transform duration-300 group-hover:scale-110" />
             <div className="hidden sm:block">
-              <span className="font-serif text-lg font-semibold text-purple-800">My Little Angel's Paradise</span>
-              <span className="block text-xs text-purple-600/80 tracking-wide">Daycare & Preschool</span>
+              <span className="font-serif text-lg font-semibold text-purple-800">Jo's Little Angels Childcare</span>
+              <span className="block text-xs text-purple-600/80 tracking-wide">Home-Based Childcare</span>
             </div>
           </a>
 
@@ -275,17 +275,17 @@ const HeroSection = () => {
           <div className="text-center lg:text-left z-10">
             <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-soft mb-6 animate-fade-in">
               <SparklesIcon className="w-4 h-4 text-purple-500" />
-              <span className="text-sm font-medium text-purple-700">16 Years of Nurturing Excellence</span>
+              <span className="text-sm font-medium text-purple-700">13+ Years of Nurturing Excellence</span>
             </div>
 
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 animate-fade-in animate-delay-100">
-              Where Every Child Is{' '}
-              <span className="text-gradient">A Little Angel</span>
+              Where Every Child is{' '}
+              <span className="text-gradient">a Part of My Heart</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 mb-4 leading-relaxed animate-fade-in animate-delay-200">
-              A loving, faith-inspired sanctuary where your child's brightest future begins.
-              Where every day is an adventure in learning, growing, and discovering.
+              A clean, stable, and loving home environment for your little ones —
+              where faith-guided values and family-centered care shape every precious moment.
             </p>
 
             <p className="text-base italic text-purple-700/80 mb-8 animate-fade-in animate-delay-300">
@@ -320,7 +320,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-2 text-gray-600">
                 <BookIcon className="w-5 h-5 text-purple-500" />
-                <span className="text-sm font-medium">Frog Street Curriculum</span>
+                <span className="text-sm font-medium">Letter &amp; Number of the Week</span>
               </div>
             </div>
           </div>
@@ -384,14 +384,14 @@ const WhyChooseUsSection = () => {
     },
     {
       icon: <StarIcon className="w-8 h-8" />,
-      title: "16 Years of Excellence",
-      description: "Nearly two decades of trusted childcare experience serving the Opelousas community with dedication and love.",
+      title: "13 Years of Excellence",
+      description: "Over 13 years of trusted home-based childcare experience serving the Opelousas community with dedication, stability, and love.",
       color: "from-amber-400 to-orange-500"
     },
     {
       icon: <BookIcon className="w-8 h-8" />,
-      title: "Curriculum-Based Learning",
-      description: "Frog Street Curriculum provides research-based, developmentally appropriate education that prepares children for success.",
+      title: "Heart-Centered Learning",
+      description: "Letter and Number of the Week activities plus creative class projects build early foundations in a warm, home-like setting.",
       color: "from-purple-400 to-violet-500"
     },
     {
@@ -426,8 +426,8 @@ const WhyChooseUsSection = () => {
             A Foundation Built on <span className="text-gradient">Trust & Excellence</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            For over 16 years, we've been more than just a daycare—we're an extension of your family.
-            Here's why parents trust us with their most precious gifts.
+            For over 13 years, we've been more than just childcare — we're a home away from home.
+            Here's why families in Opelousas trust us with their most precious gifts.
           </p>
         </div>
 
@@ -475,8 +475,8 @@ const WhyChooseUsSection = () => {
               <div className="w-20 h-20 bg-white rounded-full shadow-soft flex items-center justify-center mx-auto mb-3">
                 <BookIcon className="w-10 h-10 text-sky-600" />
               </div>
-              <p className="font-semibold text-gray-900">Frog Street</p>
-              <p className="text-sm text-gray-500">Research-Based Curriculum</p>
+              <p className="font-semibold text-gray-900">Letter &amp; Number</p>
+              <p className="text-sm text-gray-500">of the Week Activities</p>
             </div>
           </div>
         </div>
@@ -507,8 +507,8 @@ const ProgramsSection = () => {
     {
       title: "Preschool",
       ages: "3 – 4 years",
-      description: "Kindergarten readiness through our Frog Street Curriculum. Building literacy, math foundations, and the confidence to succeed in school and life.",
-      features: ["Kindergarten prep", "Early literacy", "Math foundations", "Science exploration"],
+      description: "Kindergarten readiness through Letter and Number of the Week activities and creative class projects. Building literacy, math foundations, and confidence in a warm home setting.",
+      features: ["Letter of the Week", "Number of the Week", "Creative Class Projects", "Kindergarten prep"],
       image: "https://raisingchildren.net.au/__data/assets/image/0027/48069/encouraging-creativity-preschoolersnarrow.jpg",
       color: "from-purple-400 to-violet-500"
     },
@@ -593,22 +593,27 @@ const PhilosophySection = () => {
             </h2>
 
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              At My Little Angel's Paradise, we believe every child is a unique blessing with infinite potential.
-              Our faith-inspired approach creates a loving environment where children feel safe, valued, and empowered to explore.
+              At Jo's Little Angels Childcare, we believe every child is a unique blessing with infinite potential.
+              Our home-based, faith-inspired approach creates a clean, stable environment where children feel
+              safe, loved, and truly at home.
             </p>
 
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              We nurture not just academic readiness, but the whole child—their emotional wellbeing,
-              social skills, physical development, and spiritual foundation. Through our partnership with families,
-              we create a seamless support system that helps each child flourish.
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              We nurture the whole child — their emotional wellbeing, social skills, physical development,
+              and spiritual foundation. Through our close partnership with families, we create a seamless
+              support system where every child flourishes.
+            </p>
+
+            <p className="text-lg font-medium text-purple-700 mb-8 leading-relaxed italic">
+              "A place where they aren't just kids — they are family."
             </p>
 
             <div className="space-y-4">
               {[
-                { icon: <HeartIcon className="w-5 h-5" />, text: "Faith-inspired values in a welcoming environment" },
+                { icon: <HeartIcon className="w-5 h-5" />, text: "Faith-inspired values in a loving home environment" },
                 { icon: <SparklesIcon className="w-5 h-5" />, text: "Whole-child development approach" },
                 { icon: <UsersIcon className="w-5 h-5" />, text: "Strong parent-teacher partnership" },
-                { icon: <BookIcon className="w-5 h-5" />, text: "Research-based Frog Street Curriculum" }
+                { icon: <BookIcon className="w-5 h-5" />, text: "Letter & Number of the Week activities" }
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4 text-gray-700">
                   <div className="w-10 h-10 bg-gradient-to-r from-purple-100 to-sky-100 rounded-full flex items-center justify-center text-purple-600">
@@ -681,7 +686,7 @@ const DailyLifeSection = () => {
       icon: <BookIcon className="w-8 h-8" />,
       title: "Learning Time",
       time: "9:00 AM",
-      description: "Engaging curriculum activities, circle time, and hands-on learning experiences.",
+      description: "Letter and Number of the Week activities, circle time, and hands-on learning experiences that build early literacy and math skills.",
       color: "from-purple-400 to-violet-500"
     },
     {
@@ -693,9 +698,9 @@ const DailyLifeSection = () => {
     },
     {
       icon: <SparklesIcon className="w-8 h-8" />,
-      title: "Creative Play",
+      title: "Creative Projects",
       time: "10:30 AM",
-      description: "Art, music, and imaginative play that sparks creativity and self-expression.",
+      description: "Handmade crafts like ornaments, art projects, and creative class activities that spark imagination and cherished memories.",
       color: "from-sky-400 to-blue-500"
     },
     {
@@ -720,14 +725,14 @@ const DailyLifeSection = () => {
         <div className="text-center mb-16 fade-section">
           <span className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
             <SunIcon className="w-4 h-4" />
-            A Day at Our Center
+            A Day in Our Home
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Where Every Day Is <span className="text-gradient">An Adventure</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our thoughtfully planned daily schedule balances structured learning with free play,
-            ensuring each child experiences joy, discovery, and growth every single day.
+            Our warm, home-based daily routine balances structured learning with free play and creative projects,
+            ensuring each child experiences joy, discovery, and growth in a clean, stable environment every single day.
           </p>
         </div>
 
@@ -783,7 +788,7 @@ const DailyLifeSection = () => {
 // Trust Signals Section
 const TrustSignalsSection = () => {
   const stats = [
-    { value: "16+", label: "Years of Experience", icon: <StarIcon className="w-6 h-6" /> },
+    { value: "13+", label: "Years of Experience", icon: <StarIcon className="w-6 h-6" /> },
     { value: "1000+", label: "Children Nurtured", icon: <HeartIcon className="w-6 h-6" /> },
     { value: "100%", label: "Certified Staff", icon: <ShieldIcon className="w-6 h-6" /> },
     { value: "6", label: "Days a Week", icon: <ClockIcon className="w-6 h-6" /> }
@@ -801,7 +806,7 @@ const TrustSignalsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 fade-section">
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Trusted by Families Since 2009
+            Trusted by Families Since 2013
           </h2>
           <p className="text-lg text-purple-100 max-w-2xl mx-auto">
             Our commitment to excellence has earned the trust of hundreds of families in the Opelousas community.
@@ -840,11 +845,11 @@ const CTASection = () => {
 
           <p className="text-lg text-gray-600 mb-4 max-w-2xl mx-auto">
             Every great journey begins with a single step. Take that step today and discover why
-            families have trusted My Little Angel's Paradise for over 16 years.
+            families have trusted Jo's Little Angels Childcare for over 13 years.
           </p>
 
           <p className="text-base italic text-purple-700/80 mb-10">
-            A Loving Start for a Bright Future
+            A clean, stable, and loving home environment for your little ones.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -894,13 +899,13 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-6">
               <AngelWingLogo className="w-14 h-14" />
               <div>
-                <h3 className="font-serif text-xl font-semibold text-white">My Little Angel's Paradise</h3>
-                <p className="text-sm text-gray-400">Daycare & Preschool</p>
+                <h3 className="font-serif text-xl font-semibold text-white">Jo's Little Angels Childcare</h3>
+                <p className="text-sm text-gray-400">Home-Based Childcare</p>
               </div>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              A loving, faith-inspired childcare center serving the Opelousas community for over 16 years.
-              Where every day is an adventure and every child is treasured.
+              A clean, stable, and loving home-based childcare serving the Opelousas community for over 13 years.
+              Where every child isn't just a kid — they are family.
             </p>
             <p className="text-sm italic text-purple-400">
               "Train up a child in the way he should go..." — Proverbs 22:6
@@ -946,7 +951,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-500">
-              © {new Date().getFullYear()} My Little Angel's Paradise Daycare & Preschool. All rights reserved.
+              © {new Date().getFullYear()} Jo's Little Angels Childcare. All rights reserved.
             </p>
             <a
               href="#enroll"
